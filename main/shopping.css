@@ -1,1 +1,21 @@
-
+.sale{
+	display: flex;
+  flex-wrap: wrap;
+  margin: 15px;
+  justify-content: center;
+  align-content: space-between;
+  margin-bottom:25px;
+}
+.header1
+{
+	font-family: Sans-serif;
+	text-align: center;
+	color: black;
+	text-decoration: 
+}
+body {
+  background-image: ("Photos/background-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
