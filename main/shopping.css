@@ -137,3 +137,5 @@ body {
 .addtocarticon:hover .overlay {
   opacity: 1;
 }
+.checked {
+  color: orange;
