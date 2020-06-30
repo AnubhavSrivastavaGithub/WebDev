@@ -90,6 +90,9 @@ body {
 	margin:8px;
 	 border: 2px solid white;
 	 border-radius:1px;
+	 position: relative;
+  width: 100%;
+  max-width: 300px;
 }
 .card:hover {
   box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.5);
@@ -101,10 +104,36 @@ body {
 	text-align: center;
 	color: black;
 	text-shadow:1px 1px 4px yellow;
-	/*background-color: #99ff33;*/ 
+	background-color: white;
 }
 .priceinfo{
 	text-align:center;
 	background-color: #8000ff;
 	color:white;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background-color: ;
+}
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.addtocarticon:hover .overlay {
+  opacity: 1;
 }
