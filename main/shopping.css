@@ -123,6 +123,8 @@ body {
   opacity: 0;
   transition: .3s ease;
   background-color: ;
+  text-align:center;
+  text-position:absolute;
 }
 .icon {
   color: white;
@@ -133,6 +135,7 @@ body {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  box-shadow: 4px 4px 8px 4px white;
 }
 .addtocarticon:hover .overlay {
   opacity: 1;
