@@ -61,6 +61,7 @@ li.dropdown {
   display: block;
 }
 													/* NAV BAR FINISH*/
+													/* HOMEPAGE FLEX START*/
 .sale{
 	display: flex;
   flex-wrap: wrap;
@@ -69,7 +70,7 @@ li.dropdown {
   align-content: space-between;
   margin-bottom:25px;
 }
-
+													/* HOMEPAGE FLEX FINISH*/
 .header1
 {
 	font-family: Sans-serif;
@@ -91,13 +92,14 @@ body {
 	 border: 2px solid white;
 	 border-radius:1px;
 	 position: relative;
-  width: 100%; 
+  width: 100%;  s
   max-width: 300px;
   background:#e0e0eb;
 }
 .card:hover {
   box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.5);
 }
+						/*Product details Start*/
 .container {
   padding: 2px 16px;
 }
@@ -107,12 +109,16 @@ body {
 	text-shadow:1px 1px 4px yellow;
 	background-color: white;
 }
+.checked {
+color: orange;
+}
+						/*Product details FINISH*/
 .priceinfo{
 	text-align:center;
 	background-color: #8000ff;
 	color:white;
 }
-
+					/* Add to Cart Icon Start*/
 .overlay {
   position: absolute;
   top: 0;
@@ -142,6 +148,5 @@ body {
 .addtocarticon:hover .overlay {
   opacity: 1;
 }
-.checked {
-color: orange;
-}
+								/* Add to Cart FINISH*/
+								/* Images CARD FINISH*/
