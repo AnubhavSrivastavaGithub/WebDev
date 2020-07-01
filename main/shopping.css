@@ -234,4 +234,6 @@ tr {
     display: block;
 	box-shadow:4px 8px 16px 0 rgba(0,0,0,0.5);
 	background-color:#6600ff;
+	width: 50%    !important;
+	height: auto   !important;
 }
