@@ -60,7 +60,27 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}						
+											/*Account tab - NAvbar Start*/
+li.Account {
+  display: inline-block;
+  float:right;
+  margin-right:20px;
+  background-color:#b300b3;
+  box-shadow: 0 4px 8px 0 black;
+  border-radius:5px;
+  border:0px solid #5c00e6;
 }
+.Account:hover .dropdown-content{
+	display: block;
+}		
+.Account .bigtext{
+	color:white;
+	text-shadow:1px 1px black;
+}			
+						/* Account Tab NAV BAR FINISH*/
+
+
 													/* NAV BAR FINISH*/
 .sale{
 	display: flex;
@@ -146,6 +166,8 @@ body {
 .checked {
 color: orange;
 }
+
+							/*Footer Start*/
 .footer {
   background: #303036;
   color: #d3d3d3;
@@ -224,6 +246,7 @@ tr {
   color: rgba(255, 255, 255, 0.473);
   padding-left: 80px;
 }
+						/*Footer Finish*/
 .videocontainer
 {
 	box-shadow:4px 8px 16px 0 rgba(0,0,0,0.5);
