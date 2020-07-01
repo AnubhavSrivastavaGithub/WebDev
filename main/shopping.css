@@ -264,14 +264,65 @@ tr {
 	height: auto   !important;
 }
 											/*Header Video Finish*/
+											
+											
+											/*Add to Cart Page Start*/
 .AddtoCartpage{
 	text-align:center;
+	align-content:center;
 }
 .AddtoCartpage icon{
 	align: center;
 }
+				
 .ProceedWithPayment{
 	margin-top: 400px;
 	align:center;
 	box-size: 100px;
+	position: relative;
 }
+
+									/*Buttons Start*/
+.ProceedWithPayment .horzlist .button{
+	margin: 5px;
+	padding:8px;
+	display: inline-block;
+	box-shadow: 0 4px 8px 0 black;
+	margin-right:20px;
+	background-color:#ffcc00;
+	border-radius:5px;
+}
+.ProceedWithPayment .horzlist .button span{
+	cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.ProceedWithPayment .horzlist .button:hover{
+	background-color:#ff6666;
+}
+.ProceedWithPayment .horzlist .button:hover span:after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  opacity: 1;
+  right: 0;
+}
+.ProceedWithPayment .horzlist .button:hover span{
+	padding:15px;
+}
+										/*Buttons Finish*/
+.ProceedWithPayment .horzlist{
+	space-between:20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+										
+										/*Add to Cart Page Finish*/
+										
+										
+										
