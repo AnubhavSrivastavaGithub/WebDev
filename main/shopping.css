@@ -148,6 +148,7 @@ body {
   text-position:absolute;
   color:black;
   text-shadow: 2px 2px yellow;
+  href="pages\addtocart.html";
 }
 .icon {
   color: white;
@@ -245,7 +246,8 @@ tr {
   color: rgba(255, 255, 255, 0.473);
   padding-left: 80px;
 }
-						/*Footer Finish*/
+											/*Footer Finish*/
+											/*Header Video Start*/
 .videocontainer
 {
 	box-shadow:4px 8px 16px 0 rgba(0,0,0,0.5);
@@ -260,4 +262,16 @@ tr {
 	background-color:#6600ff;
 	width: 50%    !important;
 	height: auto   !important;
+}
+											/*Header Video Finish*/
+.AddtoCartpage{
+	text-align:center;
+}
+.AddtoCartpage icon{
+	align: center;
+}
+.ProceedWithPayment{
+	margin-top: 400px;
+	align:center;
+	box-size: 100px;
 }
