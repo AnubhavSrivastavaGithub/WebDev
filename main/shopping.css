@@ -274,15 +274,13 @@ tr {
 .AddtoCartpage icon{
 	align: center;
 }
-				
 .ProceedWithPayment{
 	margin-top: 400px;
 	align:center;
 	box-size: 100px;
 	position: relative;
 }
-
-									/*Buttons Start*/
+											/*Buttons Start*/
 .ProceedWithPayment .horzlist .button{
 	margin: 5px;
 	padding:8px;
