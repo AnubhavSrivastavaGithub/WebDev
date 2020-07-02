@@ -1,129 +1,155 @@
 <!DOCTYPE html>
+
 <html>
   <head>
-    <title>myshop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link
-      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" type="text/css" href="shop.css" />
+
+    <link rel="stylesheet" href="payment.css" />
   </head>
 
   <body>
-    <!--  start of our welcome page nav bar-->
-    <ul class="navbar-1">
-      <li>
-        <a href="shop.html"
-          ><span class="bigtext"><strong>MYSHOP</strong></span></a
-        >
-      </li>
-      <li class="dropdown" class="bigtext">
-        <a href="javascript:void(0)" class="dropbtn"
-          ><span class="bigtext"><strong>Offers</strong></span></a
-        >
-        <div class="dropdown-content">
-          <a href="#">offers for you</a>
-          <a href="#">sale</a>
-          <a href="#">price drop</a>
-          <a href="#">monthly offers</a>
-          <a href="#">paytm offers</a>
-          <a href="#">axix bank ofers</a>
-          <a href="#">buy1 get 1 free</a>
-          <a href="#">festival offers</a>
-          <a href="#">upcoming offers</a>
-        </div>
-      </li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn"
-          ><span class="bigtext"><strong>Searching for??</strong></span></a
-        >
-        <div class="dropdown-content">
-          <a href="#">home & applinces</a>
-          <a href="#">fassion and dressing</a>
-          <a href="#">electronics and devices</a>
-          <a href="#">sports and games</a>
-          <a href="#">stationery</a>
-          <a href="#">maqueps and chudia</a>
-          <a href="#">undergarments for womens</a>
-          <a href="#">undergarments for mens</a>
-          <a href="#">child and babys</a>
-          <a href="#">grosseryes and food</a>
-          <a href="#">fast food and breakfast</a>
-          <a href="#">food for your pet</a>
-        </div>
-      </li>
-    </ul>
-    <div class="footer">
-      <div class="footer-content">
-        <table style="width: 80%; margin: 0 auto;">
-          <tr class="tab-heading">
-            <th>About us</th>
-            <th>Our Initiatives</th>
-            <th>Carrers</th>
-          </tr>
-          <tr class="all-coloumn">
-            <td><a href="#">our main office</a></td>
-            <td><a href="#">credit card limitations</a></td>
-            <td><a href="#">latest projects</a></td>
-          </tr>
-          <tr class="all-coloumn">
-            <td><a href="#">our braches</a></td>
-            <td><a href="#">sequre payment</a></td>
-            <td><a href="#">running projects</a></td>
-          </tr>
-          <tr class="all-coloumn">
-            <td><a href="#">all brands</a></td>
-            <td><a href="#">refund and fines</a></td>
-            <td><a href="#">intern hiring</a></td>
-          </tr>
-          <tr class="all-coloumn">
-            <td><a href="#">authorities</a></td>
-            <td><a href="#">review by mail</a></td>
-            <td><a href="#">job portal</a></td>
-          </tr>
-          <tr class="all-coloumn">
-            <td><a href="#">countries</a></td>
-            <td><a href="#">offline mall</a></td>
-            <td><a href="#">add your brand</a></td>
-          </tr>
-          <tr class="all-coloumn">
-            <td><a href="#">contact us</a></td>
-            <td><a href="#">faster delivery</a></td>
-            <td><a href="#">bug bunty</a></td>
-          </tr>
-          <tr class="all-coloumn">
-            <td><a href="#">social</a></td>
-            <td><a href="#">reagular cheak</a></td>
-            <td><a href="#">contributors</a></td>
-          </tr>
-        </table>
+    <h2
+      style="
+        text-align: center;
+        color: rgb(238, 66, 66);
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-shadow: 2px 2px 8px rgb(4, 247, 37);
+        font-size: 30px;
+      "
+    >
+      !!! You are just one step away to buy HAPPINESS !!!
+    </h2>
+    <div class="information" style="padding-left: 35px;">
+      <h2 style="color: rgb(240, 15, 128);">
+        your shopping details
+      </h2>
+      <h3>No. of Iteams: 2</h3>
+      <h3>Total shoping: rs- 1500 only/-</h3>
+      <h3>Aproximate Date for delivery: 15july 2020</h3>
+      <h3>Coupen available: NA</h3>
+      <h3>Total Ammount(+GST) to pay: 1534 only/-</h3>
+    </div>
+    <div class="row">
+      <div class="col-75">
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="John M. Doe"
+                />
+                <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="
+​                   ​​john@example.com"
+                />
+                <label for="adr"
+                  ><i class="fa fa-address-card-o"></i> Address</label
+                >
+                <input
+                  type="text"
+                  id="adr"
+                  name="address"
+                  placeholder="
+                   542 W. 15th Street"
+                />
+                <label for="city"><i class="fa fa-institution"></i> City</label>
+                <input
+                  type="text"
+                  id="city"
+                  name="city"
+                  placeholder="New York"
+                />
 
-        <div class="some-coment">
-          <h5>OUR VISION :</h5>
+                <div class="row">
+                  <div class="col-50">
+                    <label for="state">State</label>
+                    <input
+                      type="text"
+                      id="state"
+                      name="state"
+                      placeholder="NY"
+                    />
+                  </div>
+                  <div class="col-50">
+                    <label for="zip">Pin Code</label>
+                    <input
+                      type="text"
+                      id="zip"
+                      name="zip"
+                      placeholder="10001"
+                    />
+                  </div>
+                </div>
+              </div>
 
-          <p>
-            this site is a prototype for a online mall in which we used only
-            HTML5 and CSS3 no any kind of bootstrap and online sortcurts are
-            used for better understanding.<br />
-            We are working on this small prototype project to get a better grip
-            on css styling and some note generally used tags avaliable in HTML.
-          </p>
+              <div class="col-50">
+                <h3>Payment</h3>
+                <label for="fname">Accepted Cards</label>
+                <div class="icon-container">
+                  <i class="fa fa-cc-visa" style="color: navy;"></i>
+                  <i class="fa fa-cc-amex" style="color: blue;"></i>
+                  <i class="fa fa-cc-mastercard" style="color: red;"></i>
+                  <i class="fa fa-cc-discover" style="color: orange;"></i>
+                </div>
+
+                <label for="cname">Name on Card</label>
+                <input
+                  type="text"
+                  id="cname"
+                  name="cardname"
+                  placeholder="John More Doe"
+                />
+                <label for="ccnum">Credit card number</label>
+                <input
+                  type="text"
+                  id="ccnum"
+                  name="cardnumber"
+                  placeholder="1111-2222-3333-4444"
+                />
+                <label for="expmonth">Exp Month</label>
+                <input
+                  type="text"
+                  id="expmonth"
+                  name="expmonth"
+                  placeholder="September"
+                />
+                <div class="row">
+                  <div class="col-50">
+                    <label for="expyear">Exp Year</label>
+                    <input
+                      type="text"
+                      id="expyear"
+                      name="expyear"
+                      placeholder="2018"
+                    />
+                  </div>
+                  <div class="col-50">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" placeholder="352" />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <input type="submit" value="Continue to checkout" class="btn" />
+          </form>
         </div>
-      </div>
-      <div class="footer-bottom">
-        <i class="fa fa-copyright" aria-hidden="true"></i> All Rights Reserved.
-        <br />
-        designed by @Raman_111 and @anubhavwas || june 2020 ||
       </div>
     </div>
   </body>
-  <div></div>
 </html>
-
