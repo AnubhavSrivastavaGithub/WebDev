@@ -270,12 +270,17 @@ tr {
 .AddtoCartpage{
 	text-align:center;
 	align-content:center;
+	position:relative;
 }
 .AddtoCartpage icon{
 	align: center;
+	margin:10px;
+}
+.adtcpge{
+	display:block;
 }
 .ProceedWithPayment{
-	margin-top: 400px;
+	margin-top: auto;
 	align:center;
 	box-size: 100px;
 	position: relative;
