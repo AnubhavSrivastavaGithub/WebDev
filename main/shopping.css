@@ -270,20 +270,16 @@ tr {
 .AddtoCartpage{
 	text-align:center;
 	align-content:center;
-	position:relative;
 }
 .AddtoCartpage icon{
 	align: center;
-	margin:10px;
-}
-.adtcpge{
-	display:block;
 }
 .ProceedWithPayment{
 	margin-top: auto;
 	align:center;
 	box-size: 100px;
 	position: relative;
+	margin-top:400px;
 }
 											/*Buttons Start*/
 .ProceedWithPayment .horzlist .button{
